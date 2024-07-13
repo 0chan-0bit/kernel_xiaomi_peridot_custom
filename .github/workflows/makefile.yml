@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/Peridot-Development/kernel_xiaomi_peridot/tree/peridot-u-oss
+          kernel-url: https://github.com/Peridot-Development/kernel_xiaomi_peridot.git
           kernel-dir: msm-4.9-c1
           kernel-branch: peridot-u-oss
           config: defconfig
