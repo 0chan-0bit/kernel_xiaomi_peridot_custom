@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/Peridot-Development/kernel_xiaomi_peridot.git
           kernel-dir: msm-4.9-c1
           kernel-branch: peridot-u-oss
-          config: gki_defconfig
+          config: microdroid_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
